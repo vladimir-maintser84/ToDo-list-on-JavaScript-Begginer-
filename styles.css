@@ -1,0 +1,63 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.input>input {
+    all: unset;
+    border: 1px solid black;
+    width: 256px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.input>button {
+    all: unset;
+    position: relative;
+    background-color: orangered;
+    width: 60px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 400px;
+    width: 300px;
+    overflow: scroll;
+    border: 1px solid rgb(203, 202, 202);
+    border-radius: 15px;
+}
+
+.list>p {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.delete-button {
+    background-color: red;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    margin-left: 10px;
+}
